@@ -1,0 +1,1 @@
+const form=document.querySelector('#leadForm');const success=document.querySelector('#success');form?.addEventListener('submit',(e)=>{e.preventDefault();success.hidden=false;success.scrollIntoView({behavior:'smooth',block:'nearest'});});
